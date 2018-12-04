@@ -6,21 +6,13 @@ This is a companion repo to [my article on Medium](https://medium.com/tech-at-no
 
 1. Install [Node.js](https://nodejs.org/en/)
 2. Follow the Google Cloud CLI [quickstart guide](https://cloud.google.com/pubsub/docs/quickstart-cli)
+3. `$ npm install`
 
 ## Emulate Google Cloud Functions locally
 
-1. From your terminal run the following command
-
-```
-$ npm run local
-```
-
+1. `$ npm run local`
 2. Visit http://localhost:3000/render in your web browser.
 
 ## Deploy to Google Cloud
 
-1. From your terminal run the following commands
-
-```
-$ npm run build && npm run deploy
-```
+1. `$ npm run build && npm run deploy`
